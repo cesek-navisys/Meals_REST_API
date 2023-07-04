@@ -1,3 +1,4 @@
+import 'reflect-metadata';
 import { Module } from '@nestjs/common';
 import {UserModule} from "./entities/user/user.module";
 import {MealModule} from "./entities/meal/meal.module";

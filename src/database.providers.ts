@@ -11,9 +11,9 @@ export const databaseProviders = [
             const sequelize = new Sequelize({
                 dialect: 'postgres',
                 host: 'localhost',
-                port: 5432,
+                port: 5433,
                 username: 'postgres',
-                password: '786123',
+                password: 'postgres',
                 database: 'demo-task',
             });
             sequelize.addModels([User, Meal, Answer]);
